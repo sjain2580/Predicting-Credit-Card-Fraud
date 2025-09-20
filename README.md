@@ -80,8 +80,10 @@ python fraud_detection.py
 The script will print the evaluation metrics and generate two key plots:
 
 - Receiver Operating Characteristic (ROC) Curve: This plot illustrates the model's ability to distinguish between the two classes. A curve closer to the top-left corner indicates better performance.
+![ROC Curve](ROC.png)
 
 - Precision-Recall Curve: This plot is particularly informative for imbalanced datasets, as it shows the trade-off between precision and recall for different classification thresholds. A curve that stays high on the y-axis (high precision) as recall increases is desirable.
+![Precision-Recall Curve](Precision-recall curve.png)
 
 ## Contributors
 
