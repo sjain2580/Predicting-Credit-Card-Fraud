@@ -1,1 +1,2 @@
+# gitattributes
 creditcard.csv filter=lfs diff=lfs merge=lfs -text
